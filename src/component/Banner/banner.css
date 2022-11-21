@@ -1,0 +1,39 @@
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.bannerDetail {
+    position: absolute;
+    color: white;
+    background-color: none;
+    top: 36%;
+    left: 4%;
+    padding-bottom: 5px;
+}
+
+.bannerDetail>h1 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    padding-bottom: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'
+}
+
+.bannerDetailBtn>button {
+    background-color: rgba(3, 3, 3, 0.3);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+}
+
+.bannerDetail>button:nth-child(2) {
+    margin-left: 5px;
+}
+
+.bannerDetail>p {
+    font-size: 8px;
+    width: 200px;
+    padding-top: 10px;
+    
+}

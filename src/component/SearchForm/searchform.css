@@ -1,0 +1,67 @@
+.searchForm {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.wrapper {
+    background-color: white;
+    height: 80px;
+    border-radius: 3px;
+}
+
+.wrapper svg {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+.inputForm {
+    display: flex;
+    padding-top: 7px;
+    border-bottom: 2px solid #00bbec;
+}
+
+.inputForm>input {
+    width: 100%;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 2px;
+    border: none;
+    outline: none;
+}
+
+input:focus{
+    border-radius: 2px;
+    background-color: lightblue;
+    
+}
+
+.buttonFrom {
+    text-align: right;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.buttonFrom button {
+    border: none;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.btnReset {
+    background-color: white;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.btnSearch {
+    background-color: #00bbec;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
